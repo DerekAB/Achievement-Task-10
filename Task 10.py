@@ -29,7 +29,7 @@ class Rectangle:
         print('\nWidth: {} cm'.format(self.width))
         print('Height: {} cm'.format(self.height))
         print('Perimeter: {} cm'.format(perimeter))
-        print('Area: {} cm squared'.format(area))
+        print('Area: {} cm\u00b2'.format(area))
         #method that will print out all the information that was input, as well as the perimeter and the area back to the user
         
 rectangle = Rectangle(10, 12)        
